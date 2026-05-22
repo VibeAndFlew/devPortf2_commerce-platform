@@ -69,10 +69,6 @@ const nextConfig: NextConfig = {
     ],
   },
 
-  // Turbopack (Next.js 16 default bundler)
-  turbopack: {
-    root: process.cwd(),
-  },
 };
 
 export default nextConfig;
