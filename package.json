@@ -1,17 +1,55 @@
 {
-  "name": "commerce-platform",
-  "version": "0.1.0",
+  "name": "meridian-commerce",
+  "version": "1.0.0",
   "private": true,
+  "description": "Enterprise procurement ecosystem — catalog management, vendor relations, inventory tracking, order processing, warehouse logistics, and billing automation.",
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
+    "clean": "rimraf .next node_modules",
+    "dev": "next dev -p 4002",
+    "format": "prettier --write .",
+    "lint": "eslint",
     "start": "next start",
-    "lint": "eslint"
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@radix-ui/react-alert-dialog": "^1",
+    "@radix-ui/react-avatar": "^1",
+    "@radix-ui/react-checkbox": "^1",
+    "@radix-ui/react-dialog": "^1",
+    "@radix-ui/react-dropdown-menu": "^1",
+    "@radix-ui/react-label": "^1",
+    "@radix-ui/react-popover": "^1",
+    "@radix-ui/react-progress": "^1",
+    "@radix-ui/react-scroll-area": "^1",
+    "@radix-ui/react-select": "^1",
+    "@radix-ui/react-separator": "^1",
+    "@radix-ui/react-slot": "^1",
+    "@radix-ui/react-switch": "^1",
+    "@radix-ui/react-tabs": "^1",
+    "@radix-ui/react-toast": "^1",
+    "@radix-ui/react-tooltip": "^1",
+    "@tanstack/react-table": "^8",
+    "class-variance-authority": "^0.7",
+    "clsx": "^2.1",
+    "framer-motion": "^12",
+    "lucide-react": "^0.400",
     "next": "16.2.6",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "tailwind-merge": "^3",
+    "tailwindcss-animate": "^1",
+    "zod": "^3"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <rect width="1200" height="800" fill="#f8fafc"/>
+  <!-- Sidebar -->
+  <rect x="0" y="0" width="240" height="800" fill="#f1f5f9"/>
+  <rect x="16" y="24" width="48" height="48" rx="12" fill="#6366f1"/>
+  <rect x="76" y="38" width="80" height="20" rx="4" fill="#1e293b"/>
+  <rect x="16" y="96" width="208" height="1" fill="#e2e8f0"/>
+  <!-- Nav items -->
+  <rect x="16" y="120" width="208" height="40" rx="8" fill="transparent"/>
+  <rect x="44" y="132" width="16" height="16" rx="4" fill="#94a3b8"/>
+  <rect x="72" y="133" width="80" height="14" rx="4" fill="#64748b"/>
+  <rect x="16" y="172" width="208" height="40" rx="8" fill="#6366f1" opacity="0.1"/>
+  <rect x="44" y="184" width="16" height="16" rx="4" fill="#6366f1"/>
+  <rect x="72" y="185" width="72" height="14" rx="4" fill="#6366f1"/>
+  <rect x="16" y="224" width="208" height="40" rx="8" fill="transparent"/>
+  <rect x="44" y="236" width="16" height="16" rx="4" fill="#94a3b8"/>
+  <rect x="72" y="237" width="64" height="14" rx="4" fill="#64748b"/>
+  <rect x="16" y="276" width="208" height="40" rx="8" fill="transparent"/>
+  <rect x="44" y="288" width="16" height="16" rx="4" fill="#94a3b8"/>
+  <rect x="72" y="289" width="88" height="14" rx="4" fill="#64748b"/>
+  <rect x="16" y="328" width="208" height="40" rx="8" fill="transparent"/>
+  <rect x="44" y="340" width="16" height="16" rx="4" fill="#94a3b8"/>
+  <rect x="72" y="341" width="56" height="14" rx="4" fill="#64748b"/>
+  <rect x="16" y="380" width="208" height="40" rx="8" fill="transparent"/>
+  <rect x="44" y="392" width="16" height="16" rx="4" fill="#94a3b8"/>
+  <rect x="72" y="393" width="96" height="14" rx="4" fill="#64748b"/>
+  <rect x="16" y="432" width="208" height="40" rx="8" fill="transparent"/>
+  <rect x="44" y="444" width="16" height="16" rx="4" fill="#94a3b8"/>
+  <rect x="72" y="445" width="80" height="14" rx="4" fill="#64748b"/>
+  <rect x="16" y="484" width="208" height="40" rx="8" fill="transparent"/>
+  <rect x="44" y="496" width="16" height="16" rx="4" fill="#94a3b8"/>
+  <rect x="72" y="497" width="64" height="14" rx="4" fill="#64748b"/>
+  <rect x="16" y="534" width="208" height="40" rx="8" fill="transparent"/>
+  <rect x="44" y="546" width="16" height="16" rx="4" fill="#94a3b8"/>
+  <rect x="72" y="547" width="68" height="14" rx="4" fill="#64748b"/>
+  <!-- Main content -->
+  <rect x="240" y="0" width="960" height="64" fill="#ffffff"/>
+  <text x="280" y="40" font-family="system-ui" font-size="18" font-weight="600" fill="#0f172a">Procurement Analytics</text>
+  <!-- KPI row -->
+  <rect x="264" y="88" width="212" height="100" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="284" y="104" width="36" height="36" rx="10" fill="#eef2ff"/>
+  <rect x="296" y="116" width="12" height="12" rx="4" fill="#6366f1"/>
+  <text x="332" y="118" font-family="system-ui" font-size="12" fill="#64748b">Total Spend</text>
+  <text x="284" y="156" font-family="system-ui" font-size="24" font-weight="700" fill="#0f172a">$1.24M</text>
+  <text x="284" y="172" font-family="system-ui" font-size="11" fill="#166534">↑ 8.3% vs last month</text>
+
+  <rect x="492" y="88" width="212" height="100" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="512" y="104" width="36" height="36" rx="10" fill="#eef2ff"/>
+  <rect x="524" y="116" width="12" height="12" rx="4" fill="#6366f1"/>
+  <text x="560" y="118" font-family="system-ui" font-size="12" fill="#64748b">Avg Order Value</text>
+  <text x="512" y="156" font-family="system-ui" font-size="24" font-weight="700" fill="#0f172a">$8,450</text>
+  <text x="512" y="172" font-family="system-ui" font-size="11" fill="#166534">↑ 2.1% vs last month</text>
+
+  <rect x="720" y="88" width="212" height="100" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="740" y="104" width="36" height="36" rx="10" fill="#eef2ff"/>
+  <rect x="752" y="116" width="12" height="12" rx="4" fill="#6366f1"/>
+  <text x="788" y="118" font-family="system-ui" font-size="12" fill="#64748b">Fulfillment Rate</text>
+  <text x="740" y="156" font-family="system-ui" font-size="24" font-weight="700" fill="#0f172a">94.2%</text>
+  <text x="740" y="172" font-family="system-ui" font-size="11" fill="#166534">↑ 1.5% vs last month</text>
+
+  <rect x="948" y="88" width="212" height="100" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="968" y="104" width="36" height="36" rx="10" fill="#eef2ff"/>
+  <rect x="980" y="116" width="12" height="12" rx="4" fill="#6366f1"/>
+  <text x="1016" y="118" font-family="system-ui" font-size="12" fill="#64748b">On-Time Delivery</text>
+  <text x="968" y="156" font-family="system-ui" font-size="24" font-weight="700" fill="#0f172a">88.7%</text>
+  <text x="968" y="172" font-family="system-ui" font-size="11" fill="#854d0e">↓ 0.4% vs last month</text>
+
+  <!-- Spend Trend Chart -->
+  <rect x="264" y="212" width="636" height="320" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="284" y="244" font-family="system-ui" font-size="15" font-weight="600" fill="#0f172a">Spend Trend — Last 12 Months</text>
+  <!-- Grid lines -->
+  <line x1="284" y1="280" x2="840" y2="280" stroke="#f1f5f9" stroke-width="1"/>
+  <line x1="284" y1="320" x2="840" y2="320" stroke="#f1f5f9" stroke-width="1"/>
+  <line x1="284" y1="360" x2="840" y2="360" stroke="#f1f5f9" stroke-width="1"/>
+  <line x1="284" y1="400" x2="840" y2="400" stroke="#f1f5f9" stroke-width="1"/>
+  <line x1="284" y1="440" x2="840" y2="440" stroke="#f1f5f9" stroke-width="1"/>
+  <!-- Line chart points and line -->
+  <polyline points="320,420 370,400 420,380 470,410 520,370 570,340 620,360 670,320 720,300 770,310 820,280 840,270" stroke="#6366f1" stroke-width="3" fill="none"/>
+  <circle cx="320" cy="420" r="4" fill="#6366f1"/>
+  <circle cx="420" cy="380" r="4" fill="#6366f1"/>
+  <circle cx="520" cy="370" r="4" fill="#6366f1"/>
+  <circle cx="620" cy="360" r="4" fill="#6366f1"/>
+  <circle cx="720" cy="300" r="4" fill="#6366f1"/>
+  <circle cx="820" cy="280" r="4" fill="#6366f1"/>
+  <!-- X-axis labels -->
+  <text x="310" y="470" font-family="system-ui" font-size="9" fill="#94a3b8">Jun</text>
+  <text x="410" y="470" font-family="system-ui" font-size="9" fill="#94a3b8">Aug</text>
+  <text x="510" y="470" font-family="system-ui" font-size="9" fill="#94a3b8">Oct</text>
+  <text x="610" y="470" font-family="system-ui" font-size="9" fill="#94a3b8">Dec</text>
+  <text x="710" y="470" font-family="system-ui" font-size="9" fill="#94a3b8">Feb</text>
+  <text x="810" y="470" font-family="system-ui" font-size="9" fill="#94a3b8">Apr</text>
+  <!-- Y-axis labels -->
+  <text x="276" y="283" font-family="system-ui" font-size="9" fill="#94a3b8">$150K</text>
+  <text x="276" y="323" font-family="system-ui" font-size="9" fill="#94a3b8">$120K</text>
+  <text x="276" y="363" font-family="system-ui" font-size="9" fill="#94a3b8">$90K</text>
+  <text x="276" y="403" font-family="system-ui" font-size="9" fill="#94a3b8">$60K</text>
+  <text x="276" y="443" font-family="system-ui" font-size="9" fill="#94a3b8">$30K</text>
+
+  <!-- Top Vendors -->
+  <rect x="920" y="212" width="260" height="320" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="940" y="244" font-family="system-ui" font-size="15" font-weight="600" fill="#0f172a">Top Vendors</text>
+  <rect x="940" y="266" width="220" height="32" rx="6" fill="#f8fafc"/>
+  <text x="952" y="286" font-family="system-ui" font-size="12" fill="#334155">Acme Supply Co.</text>
+  <text x="1040" y="286" font-family="system-ui" font-size="12" fill="#64748b">$184K</text>
+  <rect x="1100" y="278" width="48" height="12" rx="6" fill="#eef2ff"/>
+  <text x="1106" y="287" font-family="system-ui" font-size="9" fill="#6366f1">15%</text>
+  <rect x="940" y="304" width="220" height="1" fill="#f1f5f9"/>
+  <rect x="940" y="310" width="220" height="32" rx="6" fill="#f8fafc"/>
+  <text x="952" y="330" font-family="system-ui" font-size="12" fill="#334155">Global Parts Inc.</text>
+  <text x="1048" y="330" font-family="system-ui" font-size="12" fill="#64748b">$142K</text>
+  <rect x="1100" y="322" width="48" height="12" rx="6" fill="#eef2ff"/>
+  <text x="1106" y="331" font-family="system-ui" font-size="9" fill="#6366f1">11%</text>
+  <rect x="940" y="348" width="220" height="1" fill="#f1f5f9"/>
+  <rect x="940" y="354" width="220" height="32" rx="6" fill="#f8fafc"/>
+  <text x="952" y="374" font-family="system-ui" font-size="12" fill="#334155">Quality Materials</text>
+  <text x="1052" y="374" font-family="system-ui" font-size="12" fill="#64748b">$98K</text>
+  <rect x="1100" y="366" width="48" height="12" rx="6" fill="#eef2ff"/>
+  <text x="1106" y="375" font-family="system-ui" font-size="9" fill="#6366f1">8%</text>
+  <rect x="940" y="392" width="220" height="1" fill="#f1f5f9"/>
+  <rect x="940" y="398" width="220" height="32" rx="6" fill="#f8fafc"/>
+  <text x="952" y="418" font-family="system-ui" font-size="12" fill="#334155">Industrial Supply</text>
+  <text x="1052" y="418" font-family="system-ui" font-size="12" fill="#64748b">$76K</text>
+  <rect x="1100" y="410" width="48" height="12" rx="6" fill="#eef2ff"/>
+  <text x="1106" y="419" font-family="system-ui" font-size="9" fill="#6366f1">6%</text>
+
+  <!-- Categories -->
+  <rect x="264" y="552" width="420" height="200" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="284" y="584" font-family="system-ui" font-size="15" font-weight="600" fill="#0f172a">Spend by Category</text>
+  <rect x="284" y="604" width="12" height="12" rx="3" fill="#6366f1"/>
+  <text x="304" y="614" font-family="system-ui" font-size="12" fill="#334155">Raw Materials</text>
+  <text x="640" y="614" font-family="system-ui" font-size="12" font-weight="500" fill="#0f172a">$420K</text>
+  <rect x="284" y="628" width="12" height="12" rx="3" fill="#818cf8"/>
+  <text x="304" y="638" font-family="system-ui" font-size="12" fill="#334155">Electronics</text>
+  <text x="652" y="638" font-family="system-ui" font-size="12" font-weight="500" fill="#0f172a">$310K</text>
+  <rect x="284" y="652" width="12" height="12" rx="3" fill="#a5b4fc"/>
+  <text x="304" y="662" font-family="system-ui" font-size="12" fill="#334155">Packaging</text>
+  <text x="656" y="662" font-family="system-ui" font-size="12" font-weight="500" fill="#0f172a">$210K</text>
+  <rect x="284" y="676" width="12" height="12" rx="3" fill="#c7d2fe"/>
+  <text x="304" y="686" font-family="system-ui" font-size="12" fill="#334155">Logistics</text>
+  <text x="656" y="686" font-family="system-ui" font-size="12" font-weight="500" fill="#0f172a">$180K</text>
+  <rect x="284" y="700" width="12" height="12" rx="3" fill="#e0e7ff"/>
+  <text x="304" y="710" font-family="system-ui" font-size="12" fill="#334155">Services</text>
+  <text x="656" y="710" font-family="system-ui" font-size="12" font-weight="500" fill="#0f172a">$120K</text>
+
+  <!-- Monthly Comparison -->
+  <rect x="700" y="552" width="480" height="200" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="720" y="584" font-family="system-ui" font-size="15" font-weight="600" fill="#0f172a">Monthly Comparison</text>
+  <rect x="720" y="606" width="60" height="16" rx="4" fill="#6366f1"/>
+  <text x="720" y="636" width="60" height="16" rx="4" fill="#a5b4fc"/>
+  <text x="732" y="618" font-family="system-ui" font-size="9" fill="#ffffff">This Year</text>
+  <text x="732" y="648" font-family="system-ui" font-size="9" fill="#6366f1">Last Year</text>
+  <!-- Bars -->
+  <rect x="810" y="620" width="24" height="80" rx="4" fill="#6366f1"/>
+  <rect x="810" y="640" width="24" height="60" rx="4" fill="#a5b4fc"/>
+  <rect x="848" y="640" width="24" height="60" rx="4" fill="#6366f1"/>
+  <rect x="848" y="660" width="24" height="40" rx="4" fill="#a5b4fc"/>
+  <rect x="886" y="630" width="24" height="70" rx="4" fill="#6366f1"/>
+  <rect x="886" y="650" width="24" height="50" rx="4" fill="#a5b4fc"/>
+  <rect x="924" y="610" width="24" height="90" rx="4" fill="#6366f1"/>
+  <rect x="924" y="630" width="24" height="70" rx="4" fill="#a5b4fc"/>
+  <rect x="962" y="620" width="24" height="80" rx="4" fill="#6366f1"/>
+  <rect x="962" y="650" width="24" height="50" rx="4" fill="#a5b4fc"/>
+  <rect x="1000" y="650" width="24" height="50" rx="4" fill="#6366f1"/>
+  <rect x="1000" y="670" width="24" height="30" rx="4" fill="#a5b4fc"/>
+  <text x="814" y="726" font-family="system-ui" font-size="9" fill="#94a3b8">Jan</text>
+  <text x="852" y="726" font-family="system-ui" font-size="9" fill="#94a3b8">Feb</text>
+  <text x="890" y="726" font-family="system-ui" font-size="9" fill="#94a3b8">Mar</text>
+  <text x="928" y="726" font-family="system-ui" font-size="9" fill="#94a3b8">Apr</text>
+  <text x="966" y="726" font-family="system-ui" font-size="9" fill="#94a3b8">May</text>
+  <text x="1004" y="726" font-family="system-ui" font-size="9" fill="#94a3b8">Jun</text>
+
+  <!-- Status bar -->
+  <rect x="240" y="760" width="960" height="40" fill="#f1f5f9"/>
+  <text x="264" y="784" font-family="system-ui" font-size="11" fill="#64748b">MERIDIAN v1.0.0</text>
+  <text x="1064" y="784" font-family="system-ui" font-size="11" fill="#64748b">Last updated: 5 min ago</text>
+</svg>

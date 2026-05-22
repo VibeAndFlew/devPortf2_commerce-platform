@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <!-- Dark terminal background -->
+  <rect width="1200" height="800" fill="#0f172a"/>
+  <!-- Terminal window frame -->
+  <rect x="80" y="60" width="1040" height="680" rx="12" fill="#1e293b"/>
+  <rect x="80" y="60" width="1040" height="40" rx="12" fill="#334155"/>
+  <rect x="80" y="88" width="1040" height="12" fill="#334155"/>
+  <!-- Window controls -->
+  <circle cx="106" cy="80" r="6" fill="#ef4444"/>
+  <circle cx="130" cy="80" r="6" fill="#f59e0b"/>
+  <circle cx="154" cy="80" r="6" fill="#22c55e"/>
+  <text x="560" y="86" font-family="system-ui" font-size="13" fill="#94a3b8" text-anchor="middle">meridian-commerce — npm run dev</text>
+  <!-- Terminal content -->
+  <text x="104" y="130" font-family="monospace" font-size="13" fill="#a5b4fc">$</text>
+  <text x="120" y="130" font-family="monospace" font-size="13" fill="#e2e8f0">npm run dev</text>
+  <text x="104" y="158" font-family="monospace" font-size="13" fill="#a5b4fc">></text>
+  <text x="120" y="158" font-family="monospace" font-size="13" fill="#6366f1">meridian-commerce@1.0.0 dev</text>
+  <text x="120" y="178" font-family="monospace" font-size="13" fill="#6366f1">next dev -p 4002</text>
+  <text x="104" y="210" font-family="monospace" font-size="13" fill="#22c55e">▲</text>
+  <text x="120" y="210" font-family="monospace" font-size="13" fill="#22c55e">Next.js 16.2.6</text>
+  <text x="104" y="234" font-family="monospace" font-size="13" fill="#94a3b8">- Local:</text>
+  <text x="176" y="234" font-family="monospace" font-size="13" fill="#38bdf8">http://localhost:4002</text>
+  <text x="104" y="258" font-family="monospace" font-size="13" fill="#94a3b8">- Network:</text>
+  <text x="192" y="258" font-family="monospace" font-size="13" fill="#38bdf8">http://192.168.1.100:4002</text>
+  <text x="104" y="282" font-family="monospace" font-size="13" fill="#94a3b8">- Environments: .env.example</text>
+  <text x="104" y="306" font-family="monospace" font-size="13" fill="#64748b">✓ Starting...</text>
+  <text x="104" y="330" font-family="monospace" font-size="13" fill="#22c55e">✓</text>
+  <text x="120" y="330" font-family="monospace" font-size="13" fill="#22c55e">Ready in 2.4s</text>
+  <text x="104" y="366" font-family="monospace" font-size="13" fill="#f59e0b">⚠</text>
+  <text x="120" y="366" font-family="monospace" font-size="13" fill="#f59e0b">Compiled /dashboard in 847ms</text>
+  <text x="104" y="394" font-family="monospace" font-size="13" fill="#22c55e">✓</text>
+  <text x="120" y="394" font-family="monospace" font-size="13" fill="#22c55e">Compiled /catalogs in 234ms</text>
+  <text x="104" y="422" font-family="monospace" font-size="13" fill="#22c55e">✓</text>
+  <text x="120" y="422" font-family="monospace" font-size="13" fill="#22c55e">Compiled /vendors in 198ms</text>
+  <text x="104" y="450" font-family="monospace" font-size="13" fill="#22c55e">✓</text>
+  <text x="120" y="450" font-family="monospace" font-size="13" fill="#22c55e">Compiled /inventory in 267ms</text>
+  <text x="104" y="478" font-family="monospace" font-size="13" fill="#22c55e">✓</text>
+  <text x="120" y="478" font-family="monospace" font-size="13" fill="#22c55e">Compiled /orders in 312ms</text>
+  <text x="104" y="506" font-family="monospace" font-size="13" fill="#22c55e">✓</text>
+  <text x="120" y="506" font-family="monospace" font-size="13" fill="#22c55e">Compiled /procurement in 189ms</text>
+  <text x="104" y="534" font-family="monospace" font-size="13" fill="#f59e0b">⚠</text>
+  <text x="120" y="534" font-family="monospace" font-size="13" fill="#f59e0b">Compiled /warehouses with warnings in 456ms</text>
+  <text x="120" y="562" font-family="monospace" font-size="13" fill="#64748b">  ⚠ The requested module 'lucide-react' contains</text>
+  <text x="120" y="586" font-family="monospace" font-size="13" fill="#64748b">    unresolved external dependencies</text>
+  <text x="104" y="622" font-family="monospace" font-size="13" fill="#22c55e">✓</text>
+  <text x="120" y="622" font-family="monospace" font-size="13" fill="#22c55e">Compiled /billing in 201ms</text>
+  <text x="104" y="650" font-family="monospace" font-size="13" fill="#22c55e">✓</text>
+  <text x="120" y="650" font-family="monospace" font-size="13" fill="#22c55e">Compiled /profile in 178ms</text>
+  <text x="104" y="678" font-family="monospace" font-size="13" fill="#22c55e">✓</text>
+  <text x="120" y="678" font-family="monospace" font-size="13" fill="#22c55e">Compiled /settings in 167ms</text>
+  <text x="104" y="710" font-family="monospace" font-size="13" fill="#a5b4fc">$</text>
+  <text x="120" y="710" font-family="monospace" font-size="13" fill="#e2e8f0">npm run typecheck</text>
+  <text x="104" y="734" font-family="monospace" font-size="13" fill="#a5b4fc">></text>
+  <text x="120" y="734" font-family="monospace" font-size="13" fill="#6366f1">meridian-commerce@1.0.0 typecheck</text>
+  <text x="120" y="754" font-family="monospace" font-size="13" fill="#6366f1">tsc --noEmit</text>
+  <text x="104" y="774" font-family="monospace" font-size="13" fill="#22c55e">✓</text>
+  <text x="120" y="774" font-family="monospace" font-size="13" fill="#22c55e">No type errors found</text>
+</svg>

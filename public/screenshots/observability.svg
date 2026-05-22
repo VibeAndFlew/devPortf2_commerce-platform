@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <rect width="1200" height="800" fill="#0f172a"/>
+  <!-- Top bar -->
+  <rect x="0" y="0" width="1200" height="56" fill="#1e293b"/>
+  <rect x="0" y="56" width="1200" height="1" fill="#334155"/>
+  <text x="24" y="36" font-family="system-ui" font-size="16" font-weight="600" fill="#f8fafc">MERIDIAN Observability</text>
+  <!-- Sidebar -->
+  <rect x="0" y="57" width="200" height="743" fill="#1e293b"/>
+  <rect x="0" y="57" width="200" height="1" fill="#334155"/>
+  <rect x="16" y="80" width="168" height="32" rx="6" fill="#334155"/>
+  <text x="36" y="100" font-family="system-ui" font-size="12" fill="#f8fafc">Overview</text>
+  <rect x="16" y="120" width="168" height="32" rx="6" fill="transparent"/>
+  <text x="36" y="140" font-family="system-ui" font-size="12" fill="#94a3b8">Errors</text>
+  <rect x="16" y="160" width="168" height="32" rx="6" fill="transparent"/>
+  <text x="36" y="180" font-family="system-ui" font-size="12" fill="#94a3b8">Performance</text>
+  <rect x="16" y="200" width="168" height="32" rx="6" fill="transparent"/>
+  <text x="36" y="220" font-family="system-ui" font-size="12" fill="#94a3b8">Web Vitals</text>
+  <rect x="16" y="240" width="168" height="32" rx="6" fill="transparent"/>
+  <text x="36" y="260" font-family="system-ui" font-size="12" fill="#94a3b8">Logs</text>
+  <rect x="16" y="280" width="168" height="32" rx="6" fill="transparent"/>
+  <text x="36" y="300" font-family="system-ui" font-size="12" fill="#94a3b8">Traces</text>
+  <!-- Main area -->
+  <!-- KPI row -->
+  <rect x="224" y="80" width="220" height="100" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="240" y="106" font-family="system-ui" font-size="12" fill="#94a3b8">Error Rate</text>
+  <text x="240" y="144" font-family="system-ui" font-size="28" font-weight="700" fill="#22c55e">0.02%</text>
+  <text x="240" y="162" font-family="system-ui" font-size="11" fill="#64748b">↓ 0.01% from last hour</text>
+
+  <rect x="464" y="80" width="220" height="100" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="480" y="106" font-family="system-ui" font-size="12" fill="#94a3b8">Avg Response Time</text>
+  <text x="480" y="144" font-family="system-ui" font-size="28" font-weight="700" fill="#38bdf8">124ms</text>
+  <text x="480" y="162" font-family="system-ui" font-size="11" fill="#64748b">P95: 312ms · P99: 1.2s</text>
+
+  <rect x="704" y="80" width="220" height="100" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="720" y="106" font-family="system-ui" font-size="12" fill="#94a3b8">Apdex Score</text>
+  <text x="720" y="144" font-family="system-ui" font-size="28" font-weight="700" fill="#22c55e">0.94</text>
+  <text x="720" y="162" font-family="system-ui" font-size="11" fill="#64748b">Target: 0.90</text>
+
+  <rect x="944" y="80" width="220" height="100" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="960" y="106" font-family="system-ui" font-size="12" fill="#94a3b8">Active Users</text>
+  <text x="960" y="144" font-family="system-ui" font-size="28" font-weight="700" fill="#a78bfa">1,247</text>
+  <text x="960" y="162" font-family="system-ui" font-size="11" fill="#64748b">↑ 12% from yesterday</text>
+
+  <!-- Line chart area -->
+  <rect x="224" y="200" width="700" height="280" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="240" y="230" font-family="system-ui" font-size="14" font-weight="600" fill="#f8fafc">Response Time — Last 24 Hours</text>
+  <line x1="240" y1="260" x2="900" y2="260" stroke="#334155" stroke-width="1"/>
+  <line x1="240" y1="300" x2="900" y2="300" stroke="#334155" stroke-width="1"/>
+  <line x1="240" y1="340" x2="900" y2="340" stroke="#334155" stroke-width="1"/>
+  <line x1="240" y1="380" x2="900" y2="380" stroke="#334155" stroke-width="1"/>
+  <line x1="240" y1="420" x2="900" y2="420" stroke="#334155" stroke-width="1"/>
+  <!-- Chart lines -->
+  <polyline points="260,400 300,380 340,410 380,370 420,390 460,360 500,380 540,340 580,350 620,320 660,340 700,310 740,330 780,290 820,310 860,280 880,270" stroke="#38bdf8" stroke-width="2" fill="none"/>
+  <polyline points="260,420 300,410 340,430 380,400 420,420 460,390 500,410 540,380 580,390 620,360 660,380 700,350 740,370 780,340 820,350 860,320 880,310" stroke="#a78bfa" stroke-width="2" fill="none" stroke-dasharray="4"/>
+  <!-- Axis labels -->
+  <text x="260" y="444" font-family="system-ui" font-size="9" fill="#64748b">06:00</text>
+  <text x="380" y="444" font-family="system-ui" font-size="9" fill="#64748b">09:00</text>
+  <text x="500" y="444" font-family="system-ui" font-size="9" fill="#64748b">12:00</text>
+  <text x="620" y="444" font-family="system-ui" font-size="9" fill="#64748b">15:00</text>
+  <text x="740" y="444" font-family="system-ui" font-size="9" fill="#64748b">18:00</text>
+  <text x="860" y="444" font-family="system-ui" font-size="9" fill="#64748b">21:00</text>
+  <!-- Legend -->
+  <rect x="240" y="460" width="12" height="3" rx="2" fill="#38bdf8"/>
+  <text x="258" y="463" font-family="system-ui" font-size="10" fill="#94a3b8">P50</text>
+  <rect x="300" y="460" width="12" height="3" rx="2" fill="#a78bfa"/>
+  <text x="318" y="463" font-family="system-ui" font-size="10" fill="#94a3b8">P95</text>
+
+  <!-- Top Errors -->
+  <rect x="944" y="200" width="220" height="280" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="960" y="230" font-family="system-ui" font-size="14" font-weight="600" fill="#f8fafc">Top Errors</text>
+  <rect x="960" y="250" width="188" height="40" rx="6" fill="#334155"/>
+  <text x="976" y="266" font-family="system-ui" font-size="11" fill="#f87171">TypeError: Cannot read</text>
+  <text x="976" y="280" font-family="system-ui" font-size="10" fill="#64748b">catalogs/page.tsx:142 · 23x</text>
+  <rect x="960" y="298" width="188" height="40" rx="6" fill="#334155"/>
+  <text x="976" y="314" font-family="system-ui" font-size="11" fill="#fbbf24">Failed to fetch</text>
+  <text x="976" y="328" font-family="system-ui" font-size="10" fill="#64748b">api/orders/route.ts:87 · 15x</text>
+  <rect x="960" y="346" width="188" height="40" rx="6" fill="#334155"/>
+  <text x="976" y="362" font-family="system-ui" font-size="11" fill="#fbbf24">Connection timeout</text>
+  <text x="976" y="376" font-family="system-ui" font-size="10" fill="#64748b">lib/db.ts:34 · 8x</text>
+  <rect x="960" y="394" width="188" height="40" rx="6" fill="#334155"/>
+  <text x="976" y="410" font-family="system-ui" font-size="11" fill="#34d399">Resolved: 500 on vendors</text>
+  <text x="976" y="424" font-family="system-ui" font-size="10" fill="#64748b">Fixed in commit a3f2c1d</text>
+
+  <!-- Web Vitals section -->
+  <rect x="224" y="500" width="400" height="140" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="240" y="530" font-family="system-ui" font-size="14" font-weight="600" fill="#f8fafc">Core Web Vitals</text>
+  <rect x="240" y="550" width="168" height="24" rx="6" fill="#334155"/>
+  <text x="256" y="566" font-family="system-ui" font-size="11" fill="#94a3b8">LCP</text>
+  <text x="340" y="566" font-family="system-ui" font-size="11" fill="#22c55e">1.2s ✓</text>
+  <rect x="420" y="550" width="168" height="24" rx="6" fill="#334155"/>
+  <text x="436" y="566" font-family="system-ui" font-size="11" fill="#94a3b8">FID</text>
+  <text x="520" y="566" font-family="system-ui" font-size="11" fill="#22c55e">24ms ✓</text>
+  <rect x="240" y="582" width="168" height="24" rx="6" fill="#334155"/>
+  <text x="256" y="598" font-family="system-ui" font-size="11" fill="#94a3b8">CLS</text>
+  <text x="340" y="598" font-family="system-ui" font-size="11" fill="#22c55e">0.08 ✓</text>
+  <rect x="420" y="582" width="168" height="24" rx="6" fill="#334155"/>
+  <text x="436" y="598" font-family="system-ui" font-size="11" fill="#94a3b8">INP</text>
+  <text x="520" y="598" font-family="system-ui" font-size="11" fill="#22c55e">128ms ✓</text>
+  <text x="240" y="622" font-family="system-ui" font-size="10" fill="#64748b">All Core Web Vitals pass the good threshold</text>
+
+  <!-- Recent Logs -->
+  <rect x="644" y="500" width="520" height="140" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="660" y="530" font-family="system-ui" font-size="14" font-weight="600" fill="#f8fafc">Recent Logs</text>
+  <text x="660" y="554" font-family="monospace" font-size="11" fill="#64748b">2026-05-22T14:23:01Z</text>
+  <text x="804" y="554" font-family="monospace" font-size="11" fill="#22c55e">INFO</text>
+  <text x="840" y="554" font-family="monospace" font-size="11" fill="#94a3b8">Order #ORD-0042 fulfilled successfully</text>
+  <text x="660" y="574" font-family="monospace" font-size="11" fill="#64748b">2026-05-22T14:22:45Z</text>
+  <text x="804" y="574" font-family="monospace" font-size="11" fill="#f59e0b">WARN</text>
+  <text x="840" y="574" font-family="monospace" font-size="11" fill="#94a3b8">Low stock alert: Steel Brackets (12 remaining)</text>
+  <text x="660" y="594" font-family="monospace" font-size="11" fill="#64748b">2026-05-22T14:22:30Z</text>
+  <text x="804" y="594" font-family="monospace" font-size="11" fill="#22c55e">INFO</text>
+  <text x="840" y="594" font-family="monospace" font-size="11" fill="#94a3b8">Vendor Acme Supply score updated to 4.8</text>
+  <text x="660" y="614" font-family="monospace" font-size="11" fill="#64748b">2026-05-22T14:21:15Z</text>
+  <text x="804" y="614" font-family="monospace" font-size="11" fill="#f87171">ERROR</text>
+  <text x="840" y="614" font-family="monospace" font-size="11" fill="#94a3b8">Payment processor timeout on invoice #INV-389</text>
+</svg>
